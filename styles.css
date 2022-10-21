@@ -1,0 +1,355 @@
+
+
+body.desktop {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  .header {
+    flex-shrink: 0;
+    flex: 1 0 0px;
+    width: 1590px;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(125deg,  #60dd8e 0%, rgba(24,138,141,1) 100%);
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 10;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -288px;
+  }
+  .initial {
+    flex-shrink: 0;
+    white-space: pre;
+    z-index: 1;
+    text-shadow: 0px 3px 2px rgb(0 0 0 / 25%);
+    line-height: 1.2;
+    position: absolute;
+    text-decoration: solid;
+    margin-left: -700px;
+    margin-top: -450px;
+    font-family: "Inter", sans-serif;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .head{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: -8px;
+  }
+  .emptyFrame {
+    flex-shrink: 0;
+    width: 474px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 10;
+  }
+  .avatar {
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 30;
+  }
+  .imgFrame {
+    flex-shrink: 0;
+    flex: 1 0 0px;
+    width: 100%;
+    height: 257px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  img{
+    width: 40%;
+    height: 60%;
+    z-index: 1;
+    margin-top: 32px;
+    margin-left: 108px;
+    border: white;
+    border-radius: 50%;
+    border: white 10px solid;
+    text-shadow: 0px 3px 2px rgb(0 0 0 / 25%);
+  }
+  .name {
+    flex-shrink: 0;
+    white-space: pre;
+    position: relative;
+    line-height: 1.2;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: #fcfcfc;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    text-shadow: 0px 3px 2px rgb(0 0 0 / 25%);
+  }
+  .about {
+    flex-shrink: 0;
+    white-space: pre;
+    position: relative;
+    color: #d9d9d9;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .lorem {
+    flex-shrink: 0;
+    white-space: pre;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    color: #fcfcfc;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .phlosophyAndAcademic {
+    flex-shrink: 0;
+    width: 100%;
+    height: 679px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: -16px;
+    padding-left: 0;
+    margin-top: 555px;
+    text-align: center;
+  }
+  .philosophy {
+    line-height: 1.0;
+    color: rgba(24,138,141,1);
+    font-family: "Inter", sans-serif;
+    text-align: center;
+  }
+  .phil{
+    text-decoration: underline;
+  }
+  .philosophySentence {
+    white-space: pre;
+    color: #777777;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .decorPhilosophySentence{
+    color: #777777;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .records {
+    width: 349px;
+    height: 56px;
+    background: linear-gradient(245deg, #50cb8e 0%, #1c8f8d 100%);
+    overflow: hidden;
+    border-radius: 15px;
+    white-space: pre;
+    line-height: 2.5;
+    color: #fcfcfc;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-left: 485px;
+
+  }
+  .academic{
+    white-space: pre;
+    line-height: 1.2;
+  }
+  .attend {
+    white-space: nowrap;
+    width: 749px;
+    height: 85px;
+    box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 0.13);
+    background-color: rgba(28, 143, 141, 0.3);
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  ._2016-2020 {
+    white-space: pre;
+    font-family: "Inter", sans-serif;
+    color: #1f928d;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 3.5;
+    margin-left: 20px;
+  }
+  .attend {
+    white-space: pre;
+    font-weight: 500;
+    font-family: "Inter-Medium", "Inter", sans-serif;
+    color: #1f928d;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    display: flex;
+    margin-left: 300px;
+  }
+  .schoolName{
+    margin-left: 47px;
+  }
+
+  .skill {
+    flex-shrink: 0;
+    width: 1200px;
+    height: 678px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .flx{
+    display: flex;
+    flex-direction: column;
+  }
+  .soft{
+margin-left: -622px;
+  }
+  .hard{
+margin-left: 738px;
+  }
+  .skillHeader {
+    color:  #60dd8e;
+    white-space: pre;
+    line-height: 1.2;
+  }
+  .p1{
+    margin-left: -51px;
+  }
+  .p2{
+    margin-left: 25px;
+  }
+
+
+  .footer {
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 278px;
+    background: linear-gradient(121deg, #55d08e 0%, #21958d 100%);
+    flex: 1 0 0px;
+    position: absolute;
+    margin-top: 2000px;
+  }
+  .contact {
+    white-space: pre;
+    color: #fcfcfc;
+    text-shadow: 0px 1px 2px rgba(252, 252, 252, 0.25);
+    line-height: 1.2;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+  }
+  .nowrap{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: -18px;
+  }
+  .email {
+    white-space: pre;
+    font-weight: 500;
+    font-family: "Inter-Medium", "Inter", sans-serif;
+    color: #333333;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+  }
+  .gmail {
+    white-space: pre;
+    font-weight: 500;
+    font-family: "Inter-Medium", "Inter", sans-serif;
+    color:#777777;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+  }
+  .FCA2022 {
+    white-space: pre;
+    line-height: 1.2;
+    color: #777777;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:810px){
+
+
+    
+}
+
+@media screen and (max-width: 390px){
+
+
+    .flx{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .soft{
+        padding-right: 0%;
+    }
+    .hard{
+        padding-left: 0%;
+    }
+    .attend{
+        white-space: wrap;
+    }
+
+}
