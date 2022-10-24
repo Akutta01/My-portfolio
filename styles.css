@@ -1,8 +1,6 @@
-
-
-body.desktop {
+.desktop {
     width: 100%;
-    height: min-content;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -16,7 +14,7 @@ body.desktop {
   .header {
     flex-shrink: 0;
     flex: 1 0 0px;
-    width: 1590px;
+    width: 100%;
     height: 555px;
     display: flex;
     flex-direction: column;
@@ -30,7 +28,7 @@ body.desktop {
     gap: 10;
     position: absolute;
     margin-top: -8px;
-    margin-left: -288px;
+    margin-left: -16px;
   }
   .initial {
     flex-shrink: 0;
@@ -40,7 +38,7 @@ body.desktop {
     line-height: 1.2;
     position: absolute;
     text-decoration: solid;
-    margin-left: -700px;
+    margin-left: -1500px;
     margin-top: -450px;
     font-family: "Inter", sans-serif;
     color: #fcfcfc;
@@ -52,7 +50,6 @@ body.desktop {
     flex-direction: column;
     position: absolute;
     text-align: center;
-    margin-left: 200px;
     margin-top: -8px;
   }
   .emptyFrame {
@@ -99,7 +96,6 @@ body.desktop {
     height: 60%;
     z-index: 1;
     margin-top: 32px;
-    margin-left: 108px;
     border: white;
     border-radius: 50%;
     border: white 10px solid;
@@ -116,7 +112,6 @@ body.desktop {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    margin-left: 100px;
     text-shadow: 0px 3px 2px rgb(0 0 0 / 25%);
   }
   .about {
@@ -126,7 +121,6 @@ body.desktop {
     color: #d9d9d9;
     line-height: 1.2;
     text-align: center;
-    margin-left: 100px;
   }
   .lorem {
     flex-shrink: 0;
@@ -138,11 +132,8 @@ body.desktop {
     letter-spacing: 0px;
     line-height: 1.2;
     text-align: center;
-    margin-left: 100px;
   }
   .phlosophyAndAcademic {
-    flex-shrink: 0;
-    width: 100%;
     height: 679px;
     background-color: #ffffff;
     position: absolute;
@@ -182,21 +173,12 @@ body.desktop {
     color: #fcfcfc;
     font-family: "Inter", sans-serif;
     text-align: center;
-    margin-left: 485px;
+    margin-left: 440px;
 
   }
   .academic{
     white-space: pre;
     line-height: 1.2;
-  }
-  .attend {
-    white-space: nowrap;
-    width: 749px;
-    height: 85px;
-    box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 0.13);
-    background-color: rgba(28, 143, 141, 0.3);
-    overflow: hidden;
-    border-radius: 15px;
   }
   ._2016-2020 {
     white-space: pre;
@@ -208,6 +190,13 @@ body.desktop {
     margin-left: 20px;
   }
   .attend {
+    white-space: nowrap;
+    width: 749px;
+    height: 85px;
+    box-shadow: 3px 5px 15px 0px rgba(0, 0, 0, 0.13);
+    background-color: rgba(28, 143, 141, 0.3);
+    overflow: hidden;
+    border-radius: 15px;
     white-space: pre;
     font-weight: 500;
     font-family: "Inter-Medium", "Inter", sans-serif;
@@ -216,7 +205,7 @@ body.desktop {
     letter-spacing: 0px;
     line-height: 1.2;
     display: flex;
-    margin-left: 300px;
+    margin-left: 226px;
   }
   .schoolName{
     margin-left: 47px;
@@ -263,6 +252,7 @@ margin-left: 738px;
     flex: 1 0 0px;
     position: absolute;
     margin-top: 2000px;
+    margin-left: -16px;
   }
   .contact {
     white-space: pre;
@@ -303,53 +293,68 @@ margin-left: 738px;
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:810px){
-
-
-    
+ @media screen and (max-width:800px){ 
+  .desktop{
+    overflow-x: hidden;
+  }
+  .header {
+    margin-top: -8px;
+    margin-left: -16px;
+  }
+  .initial {
+    margin-left: -625px;
+  }
+  .head{
+    margin-right: 54px;
+  }
+  .hard{
+margin-left: 632px;
+  }
+  .footer{
+    margin-left: -16px;
+  }
+  
 }
 
 @media screen and (max-width: 390px){
-
-
-    .flx{
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    }
-    .soft{
-        padding-right: 0%;
-    }
-    .hard{
-        padding-left: 0%;
-    }
-    .attend{
-        white-space: wrap;
-    }
-
+  .desktop{
+    width: 390px;
+    overflow-x: hidden;
+  }
+  .initial {
+    margin-left: -255px;
+    margin-top: -483px;
+  }
+  .head{
+    margin-right: 16px;
+  }
+  .name {
+    font-size: 23px;
+  }
+  .lorem {
+    font-size: 15px;
+  }
+  .records {
+    margin-left: 427px;
+  }
+  ._2016-2020 {
+    line-height: 0.5;
+    margin-left: 7px;
+  }
+  .attend {
+    font-size: 14px;
+    margin-left: 427px;
+    width: 350px;
+  }
+  .schoolName{
+    margin-left: -79px;
+    font-size: 20px;
+    margin-top: 34px;
+  }
+  .soft{
+  margin-left: 12px;
+  }
+  .hard{
+  margin-left: 12px;
+  }
 }
