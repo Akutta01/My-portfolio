@@ -319,7 +319,7 @@ margin-left: 632px;
 @media screen and (max-width: 390px){
   .desktop{
     width: 390px;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
   .initial {
     margin-left: -255px;
